@@ -18,22 +18,37 @@
 		<dl>
 			<dt>Name</dt>
 			<dd>
-				???
+				<form action="http://webster.cs.washington.edu/params.php">
+					<input type="text" name="name">
+					
 			</dd>
 			
 			<dt>Section</dt>
 			<dd>
-				???
+				<select id="section" name="section" >
+					
+				<option value="(select a section)"></option>
+				<option value="section1">1</option>
+				<option value="section2">2</option>
+				<option value="section3">3</option>
+				<option value="section3">4</option>
+				</select>
 			</dd>
 			
 			<dt>Credit Card</dt>
 			<dd>
-				???
+				<input type="text" name="credidCard"><br>
+                 <input type="radio" name="Visa">
+                 <label for="visa">Visa</label>
+                   <input type="radio" name="Mastercard">
+                 <label for="visa">Master Card</label>
+
 			</dd>
 		</dl>
 		
 		<div>
-			I am a giant sucker.
+			<input type="submit" name="submit" value="I am a giant sucker">
 		</div>
+	</form>
 	</body>
 </html>
